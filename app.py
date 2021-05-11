@@ -14,7 +14,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
-mongodb_client = PyMongo(app, uri="mongodb+srv://teahouseapps:tea@explistdb.3nhmt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+mongodb_client = PyMongo(app, uri="secret!")
 db = mongodb_client.db
 
 
